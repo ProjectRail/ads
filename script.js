@@ -1,5 +1,5 @@
 const imageEl = document.getElementById("adBanner");
-var adImages = new Array("/ads.gif", "/assets/kazakola.png", "/assets/mintysmintsmeth.png", "/assets/doodbikes.png");
+var adImages = new Array("/ads.gif", "/ads/kazakola.png", "/ads/mintysmintsmeth.png", "/ads/doodbikes.png");
 
 window.setInterval(changePicture, 10000);
 let i = 0;
